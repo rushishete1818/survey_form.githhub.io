@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+        </style>
+    <link rel="stylesheet" href="SurveyForm.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+  
+    <div class="container">
+        <form action="">
+        <h2> <i>Hotel Oberoi</i></h2>
+         <h3>Survey Form -</h3>
+
+        <label for="Name">Name</label><br><br>
+       <div class="name">
+        <input type="text" placeholder="Enter your name" required>
+       </div>
+
+       <label for="email">Email</label><br><br>
+       <div class="email">
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+       </div>
+
+      <label for="">Age</label> <br><br>
+       <div class="age">
+        <input type="text" placeholder="Enter your age" required>
+       </div>
+
+       <label for="">Mo no</label> <br><br>
+       <div class="age">
+        <input type="number" placeholder="Enter mo no" required>
+       </div>
+       
+      <label for="">Which option best describe your profestion?</label><br><br>
+       <div class="role">
+        <select  name="" id="">
+            <option value="select">Select your profestion</option>
+            <option value="student">Student</option>
+            <option value="Businessman">Businessman</option>
+            <option value="Politician">Politician</option>
+            <option value="Self employed">Self employed</option>
+            <option value="Actor">Actor</option>
+            <option value="Goverment officerr">Goverment officer</option>
+        </select>
+       </div>
+
+      <label for="">Would you recommand this hotel to a friend?</label><br><br>
+       <div class="recommand">
+        <input type="radio">Definitely <br>
+        <input type="radio">May be <br>
+        <input type="radio">Not sure <br>
+       </div><br>
+
+       <label for="">What did you like most about the hotel? </label><br><br>
+       <div class="like">
+         <select name="" id="">
+            <option value="">Select what did you like</option>
+            <option value="Welcome">Welcome</option>
+            <option value="Ambience">Ambience</option>
+            <option value="cleanness">cleanness</option>
+            <option value="Staf behavoir">Staf behavoir</option>
+            <option value="Food quality">Food quality</option>
+            <option value="Booking experience">Booking experience</option>
+            <option value="Hotel destination">Hotel destination</option>
+            <option value="Window view">Window view</option>
+         </select>
+       </div>
+
+       <label for="">What would you like to see improved?</label> <br><br>
+       <div class="improve">
+        <input type="checkbox" name="">Welcome <br>
+        <input type="checkbox" name="">Food quality <br>
+        <input type="checkbox" name="">Decoration <br>
+        <input type="checkbox" name="">Hotel staff gesture <br>
+        <input type="checkbox" name="">Booking experience <br>
+        <input type="checkbox" name="">Room facility <br>
+        <input type="checkbox" name="">Room service <br>
+        <input type="checkbox" name="">Other <br>
+       </div><br>
+
+       <label for="">Any comments or Suggestions?</label><br><br>
+       <div class="suggestion">
+        <textarea name="suggestion" id="" cols="80" rows="5">Enter your comment here...</textarea>
+       </div>
+
+        <div class="submit">
+            <button type="submit">Submit</button>
+        </div>
+
+        <div class="reset">
+            <button type="reset">Reset</button>
+        </div>
+     </form>
+    </div>
+</body>
+</html>

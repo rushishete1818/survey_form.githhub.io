@@ -1,0 +1,129 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(gradient-purple-background.avif) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    width: 700px;
+    height: 1600px;
+    padding: 10px 25px;
+    margin: 50px;
+    border-radius: 10px;
+    background: transparent;
+    backdrop-filter: blur(30px);
+    color: white;
+    font-size: 18px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+}
+  
+.container h2{
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+    font-size: 50px;
+    margin-bottom: 0;
+    color: rgb(7, 209, 228);
+    text-shadow: 2px 2px white;
+}
+.container h3{
+    text-align: center;
+}
+
+.name,
+.email,
+.age,
+.role,
+.like{
+    background-color: white;
+    width: 96%;
+    height: 40px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+}
+
+.name input,
+.email input,
+.age input,
+.role input{
+   width: 100%;
+   height: 100%;
+   border-radius: 8px;
+   border: none;
+   vertical-align: middle;
+   outline:  none;
+   padding-left: 10px;
+   font-size: 14px;
+
+}
+.role,
+.like{
+    width: 98%;
+}
+
+
+.role select,
+.like select{
+   height: 100%;
+   width: 96%;
+   border: none;
+   border-radius: 8px;
+   outline: 10px;
+   padding: 0 0 0 10px;
+   font-size: 14px;
+}
+
+.suggestion textarea{
+    width: 100%;
+    outline: 10px;
+}
+
+.submit,
+.reset{
+    margin-top: 25px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+.submit button,
+.reset button{
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+    outline: 10px;
+    border: none;
+    font-size: 15px;
+    background-color: #04aa6d;
+    color: white;
+    cursor: pointer;
+}
+.reset button{
+    background-color: #08b8f3;
+}
+
+.submit button:hover{
+    opacity: 0.7;
+}
+.submit button:active{
+    opacity: 0.4;
+}
+
+
+.reset button:hover{
+    opacity: 0.7;
+}
+
+.reset button:active{
+    opacity: 0.4;
+}
+
+.improve input{
+   margin-bottom: 15px;
+}
+.recommand input{
+    margin-bottom: 15px;
+}
